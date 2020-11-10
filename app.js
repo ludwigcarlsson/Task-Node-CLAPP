@@ -49,6 +49,9 @@ function runServ() {
             res.end();
         }
     });
+    const port = 3000;
+    console.log("Starting HTTP server...");
+    console.log(`listening on port ${port}`);
 
-    server.listen(3000);
+    server.listen(port);
 }
